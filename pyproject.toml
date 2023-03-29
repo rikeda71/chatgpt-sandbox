@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatgpt-sandbox"
+version = "0.1.0"
+description = "sandbox of using chatgpt api"
+authors = ["Ryuya Ikeda <rikeda71@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
